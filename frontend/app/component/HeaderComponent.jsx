@@ -376,7 +376,9 @@ function HeaderComponent() {
                   Contact us
                 </Link>
               </li>
-            <div className="h-10 overflow-hidden  pt-1"><div id="google_translate_element" className=""></div></div>
+              <div className="h-10 overflow-hidden  pt-1">
+                <div id="google_translate_element" className=""></div>
+              </div>
             </ul>
             {/* <div className="h-10 overflow-hidden">
               <div className="ml-4" onClick={openTranslateDropdown}>
@@ -439,7 +441,9 @@ function HeaderComponent() {
                     Contact us
                   </Link>
                 </li>
-                <div className="h-10 overflow-hidden  pt-1 "><div id="google_translate_element2" className=""></div></div>
+                {/* <div className="h-10 overflow-hidden  pt-1 "> */}
+                  <div id="google_translate_element2" className="">Translate</div>
+                {/* </div> */}
               </ul>
 
               {/* Social Media Icons */}
