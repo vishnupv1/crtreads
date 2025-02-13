@@ -1,0 +1,95 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-9add436032736cfa.js",
+      "static/chunks/fd9d1056-b7cf3deb1cc87172.js",
+      "static/chunks/23-671188c0f097b138.js",
+      "static/chunks/main-app-e5bfd112020af0bf.js",
+      "static/chunks/app/_not-found/page-50a0f15d4116c8a3.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-9add436032736cfa.js",
+      "static/chunks/fd9d1056-b7cf3deb1cc87172.js",
+      "static/chunks/23-671188c0f097b138.js",
+      "static/chunks/main-app-e5bfd112020af0bf.js",
+      "static/css/3f18e939dd8ff0f5.css",
+      "static/chunks/8e1d74a4-5b79d1b65faf052a.js",
+      "static/chunks/9c4e2130-f7aaa7e9d8159c7e.js",
+      "static/chunks/66ec4792-782183e1d3796805.js",
+      "static/chunks/e34aaff9-2876e3cb425af462.js",
+      "static/chunks/479ba886-9fd82b9e4b686165.js",
+      "static/chunks/507-6f64120ec7887b13.js",
+      "static/chunks/app/layout-62d66e00d5411e7f.js"
+    ],
+    "/PrecuredTedRubber/page": [
+      "static/chunks/webpack-9add436032736cfa.js",
+      "static/chunks/fd9d1056-b7cf3deb1cc87172.js",
+      "static/chunks/23-671188c0f097b138.js",
+      "static/chunks/main-app-e5bfd112020af0bf.js",
+      "static/chunks/app/PrecuredTedRubber/page-c027dd321ed983c1.js"
+    ],
+    "/about/page": [
+      "static/chunks/webpack-9add436032736cfa.js",
+      "static/chunks/fd9d1056-b7cf3deb1cc87172.js",
+      "static/chunks/23-671188c0f097b138.js",
+      "static/chunks/main-app-e5bfd112020af0bf.js",
+      "static/chunks/app/about/page-5c9367b48e865d82.js"
+    ],
+    "/bestSellerSingleView/[name]/page": [
+      "static/chunks/webpack-9add436032736cfa.js",
+      "static/chunks/fd9d1056-b7cf3deb1cc87172.js",
+      "static/chunks/23-671188c0f097b138.js",
+      "static/chunks/main-app-e5bfd112020af0bf.js",
+      "static/chunks/795d4814-c4f5f8c218a29e0d.js",
+      "static/chunks/app/bestSellerSingleView/[name]/page-eb8b1cda6e60422a.js"
+    ],
+    "/contact/page": [
+      "static/chunks/webpack-9add436032736cfa.js",
+      "static/chunks/fd9d1056-b7cf3deb1cc87172.js",
+      "static/chunks/23-671188c0f097b138.js",
+      "static/chunks/main-app-e5bfd112020af0bf.js",
+      "static/chunks/app/contact/page-823631248616136f.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-9add436032736cfa.js",
+      "static/chunks/fd9d1056-b7cf3deb1cc87172.js",
+      "static/chunks/23-671188c0f097b138.js",
+      "static/chunks/main-app-e5bfd112020af0bf.js",
+      "static/chunks/8e1d74a4-5b79d1b65faf052a.js",
+      "static/chunks/507-6f64120ec7887b13.js",
+      "static/chunks/208-99adbdeb6d2b144e.js",
+      "static/chunks/app/page-31fca1de71e87055.js"
+    ],
+    "/products/page": [
+      "static/chunks/webpack-9add436032736cfa.js",
+      "static/chunks/fd9d1056-b7cf3deb1cc87172.js",
+      "static/chunks/23-671188c0f097b138.js",
+      "static/chunks/main-app-e5bfd112020af0bf.js",
+      "static/chunks/654-d5d956f9f8092c8f.js",
+      "static/chunks/app/products/page-f79e524e87b40c23.js"
+    ],
+    "/product/[name]/[subProductName]/page": [
+      "static/chunks/webpack-9add436032736cfa.js",
+      "static/chunks/fd9d1056-b7cf3deb1cc87172.js",
+      "static/chunks/23-671188c0f097b138.js",
+      "static/chunks/main-app-e5bfd112020af0bf.js",
+      "static/chunks/795d4814-c4f5f8c218a29e0d.js",
+      "static/chunks/654-d5d956f9f8092c8f.js",
+      "static/chunks/app/product/[name]/[subProductName]/page-0067a97ff0e9b0cd.js"
+    ],
+    "/service/page": [
+      "static/chunks/webpack-9add436032736cfa.js",
+      "static/chunks/fd9d1056-b7cf3deb1cc87172.js",
+      "static/chunks/23-671188c0f097b138.js",
+      "static/chunks/main-app-e5bfd112020af0bf.js",
+      "static/chunks/app/service/page-a3b86edbba505267.js"
+    ],
+    "/testimonials/page": [
+      "static/chunks/webpack-9add436032736cfa.js",
+      "static/chunks/fd9d1056-b7cf3deb1cc87172.js",
+      "static/chunks/23-671188c0f097b138.js",
+      "static/chunks/main-app-e5bfd112020af0bf.js",
+      "static/chunks/app/testimonials/page-73bfdf8be6b6b5f7.js"
+    ]
+  }
+}
