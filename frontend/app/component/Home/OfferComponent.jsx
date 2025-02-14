@@ -133,16 +133,16 @@ function OfferComponent() {
             alt=""
             className="w-full h-full object-cover " // Ensure the image fills the container
           /> */}
-          <video
+          {/* <video
             src="/SecondVideo.mp4"
             autoPlay
             loop
             muted
             className="w-full h-full object-cover filter contrast-125 brightness-110"
             loading="lazy"
-          >
-            Your browser does not support the video tag.
-          </video>
+          > */}
+            {/* Your browser does not support the video tag. */}
+          {/* </video> */}
         </div>
       </div>
     </div>
