@@ -6,9 +6,13 @@ function Contact() {
       {/* First Row: Short Description and Image */}
       <section className="container mx-auto p-6 flex flex-col lg:flex-row items-center space-x-5 justify-between">
         <div className="lg:w-1/2 mb-6 lg:mb-0">
-          <h1 className="text-xl md:text-2xl lg:text-4xl font-bold mb-4">About Us</h1>
+          <h1 className="text-xl md:text-2xl lg:text-4xl font-bold mb-4">
+            About Us
+          </h1>
           <p className="text-base md:text-lg text-gray-700">
-            We are a leading provider in the industry, offering top-quality products and services. Our mission is to deliver exceptional value and build long-term relationships with our customers.
+            We are a leading provider in the industry, offering top-quality
+            products and services. Our mission is to deliver exceptional value
+            and build long-term relationships with our customers.
           </p>
         </div>
         <div className="lg:w-1/2 flex justify-center h-96">
@@ -26,15 +30,19 @@ function Contact() {
         <div className="flex flex-col md:flex-row justify-center lg:justify-between items-center">
           <div className="mb-6 md:mb-0 text-center lg:w-1/6">
             <h3 className="text-xl font-bold">Address:</h3>
-            <p className="text-gray-700">123 Main Street, City, Country</p>
+            <p className="text-gray-700">
+              {" "}
+              CRC MIDDLE EAST LLC,P.O BOX 515000 , SHARJAH MEDIA CITY
+              SHARJAH,UNITED ARAB EMIRATES
+            </p>
           </div>
           <div className="mb-6 md:mb-0 text-center lg:w-1/6">
             <h3 className="text-xl font-bold">Phone:</h3>
-            <p className="text-gray-700">+123 456 7890</p>
+            <p className="text-gray-700">+971509011024</p>
           </div>
           <div className="lg:w-1/6 text-center">
             <h3 className="text-xl font-bold ">Email:</h3>
-            <p className="text-gray-700">info@example.com</p>
+            <p className="text-gray-700">info@crc-me.com</p>
           </div>
         </div>
       </section>
@@ -57,10 +65,15 @@ function Contact() {
           />
         </div>
         <div className="w-5/6 lg:w-1/2 flex flex-col items-center mt-14 lg:mt-0">
-          <h2 className="text-3xl font-semibold mb-4 text-center">Enquiry Form</h2>
+          <h2 className="text-3xl font-semibold mb-4 text-center">
+            Enquiry Form
+          </h2>
           <form className="w-full max-w-lg">
             <div className="mb-4">
-              <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
+              <label
+                className="block text-gray-700 text-sm font-bold mb-2"
+                htmlFor="name"
+              >
                 Name
               </label>
               <input
@@ -71,7 +84,10 @@ function Contact() {
               />
             </div>
             <div className="mb-4">
-              <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
+              <label
+                className="block text-gray-700 text-sm font-bold mb-2"
+                htmlFor="email"
+              >
                 Email
               </label>
               <input
@@ -82,7 +98,10 @@ function Contact() {
               />
             </div>
             <div className="mb-4">
-              <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="message">
+              <label
+                className="block text-gray-700 text-sm font-bold mb-2"
+                htmlFor="message"
+              >
                 Message
               </label>
               <textarea

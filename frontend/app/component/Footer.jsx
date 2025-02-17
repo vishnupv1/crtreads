@@ -46,8 +46,8 @@ function Footer() {
           <div className="w-full md:w-3/12 ">
             <h3 className="mt-4 text-gray-600 md:font-semibold md:text-2xl">Contact Us</h3>
             <ul className="mb-4 text-gray-600 md:font-semibold">
-              <li className="md:text-lg">Call Us at +91999999999</li>
-              <li className="md:text-lg">crtreadstyre.com</li>
+              <li className="md:text-lg">Call Us at +971509011024</li>
+              <li className="md:text-lg">crctreads.com</li>
             </ul>
             <div className="flex  justify-center md:justify-normal space-x-4 text-gray-600 mt-12">
               <a href="https://www.facebook.com" aria-label="Facebook">

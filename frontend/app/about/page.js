@@ -28,10 +28,11 @@ function About() {
         <div className="lg:w-1/2 space-y-6">
           <h1 className="text-4xl font-bold text-gray-900">About Us</h1>
           <p className="text-lg text-gray-700">
-            Welcome to our company! We specialize in delivering high-quality products
-            with a passion for excellence. Our mission is to exceed customer
-            expectations by providing exceptional services and innovative solutions.
-            Let us help you achieve your goals with our experienced and dedicated team.
+            Welcome to our company! We specialize in delivering high-quality
+            products with a passion for excellence. Our mission is to exceed
+            customer expectations by providing exceptional services and
+            innovative solutions. Let us help you achieve your goals with our
+            experienced and dedicated team.
           </p>
         </div>
         <div className="lg:w-1/2">
@@ -46,24 +47,29 @@ function About() {
       {/* Second Row - Contact Details */}
       <div className="flex flex-col lg:flex-row w-full max-w-7xl justify-between space-y-8 lg:space-y-0 lg:space-x-8">
         <div className="flex-1 bg-white p-8 rounded-lg shadow-lg">
-          <h2 className="text-2xl font-semibold mb-4 text-gray-900">Contact Us</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-gray-900">
+            Contact Us
+          </h2>
           <ul className="space-y-4 text-gray-700">
             <li>
-              <strong>Phone:</strong> +1 234 567 890
+              <strong>Phone:</strong> +971509011024
             </li>
             <li>
-              <strong>Email:</strong> contact@company.com
+              <strong>Email:</strong> info@crc-me.com
             </li>
             <li>
-              <strong>Address:</strong> 123 Business Ave, Suite 456, City, Country
+              <strong>Address:</strong> CRC MIDDLE EAST LLC,P.O BOX 515000 ,
+              SHARJAH MEDIA CITY SHARJAH,UNITED ARAB EMIRATES
             </li>
-            <li>
+            {/* <li>
               <strong>Working Hours:</strong> Mon - Fri, 9 AM - 6 PM
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className="flex-1 bg-white p-8 rounded-lg shadow-lg">
-          <h2 className="text-2xl font-semibold mb-4 text-gray-900">Follow Us</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-gray-900">
+            Follow Us
+          </h2>
           <ul className="space-y-4 text-gray-700">
             <li>
               <strong>Facebook:</strong> @ourcompany
@@ -96,7 +102,9 @@ function About() {
 
         {/* Enquiry Form */}
         <div className="lg:w-1/2 bg-white p-8 rounded-lg shadow-lg">
-          <h2 className="text-2xl font-semibold mb-4 text-gray-900">Enquiry Form</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-gray-900">
+            Enquiry Form
+          </h2>
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
               <label
