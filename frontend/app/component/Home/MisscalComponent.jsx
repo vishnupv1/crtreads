@@ -6,7 +6,7 @@ function MisscalComponent() {
   return (
     <div className="md:hidden">
       <a
-        href="tel:+1234567890"
+        href="tel:+971509011024"
         className="fixed bottom-4 right-4 w-16 h-16 p-0 bg-red-600 rounded-full shadow-lg overflow-hidden flex items-center justify-center"
         style={{ zIndex: 1000 }}
       >
