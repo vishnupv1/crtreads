@@ -8,8 +8,7 @@ const sampleReviews = [
     rating: 5,
     text: "Since switching to CRC Hitouch, I've witnessed a steady increase in sales. Despite being encouraged by their sales team to upgrade to premium grades like ELEGANT and POLYSTAR, I've remained loyal to Hitouch, their budget-friendly option for JCB tyres, due to its outstanding performance and value. In fact, I've stuck with Hitouch for 8 years, with no regrets.",
     relative_time_description: "1 week ago",
-    profile_photo_url:
-      "https://plus.unsplash.com/premium_photo-1683121366070-5ceb7e007a97?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D",
+    profile_photo_url:"user.jpg",
   },
   {
     id: 2,
@@ -17,9 +16,7 @@ const sampleReviews = [
     rating: 4,
     text: "I operate a tyre retreading business, utilizing both hot and cold processes. Previously, I was a franchisee for a premium tread rubber brand, which offered high mileage but began to exhibit increasing issues with chipping and cutting. A consumables trader introduced me to CRC, and I've since transitioned entirely to their products, from patches to OTR tread. I'm pleased with the consistent quality and pricing of their offerings. As a result, I terminated my franchise agreement and now rely solely on CRC for my business needs.",
     relative_time_description: "2 weeks ago",
-    profile_photo_url:
-      "https://plus.unsplash.com/premium_photo-1664541336896-b3d5f7dec9a3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D",
-  },
+    profile_photo_url:"user2.jpg"},
   // {
   //   id: 3,
   //   author_name: "Michael Johnson",
