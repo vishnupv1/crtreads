@@ -127,7 +127,7 @@ function OfferComponent() {
         </div>
 
         {/* Second Row: One Image */}
-        <div className="w-full h-96 md:h-4/6 overflow-hidden rounded-lg md:rounded-none mt-4 bg-yellow-400">
+        {/* <div className="w-full h-96 md:h-4/6 overflow-hidden rounded-lg md:rounded-none mt-4 bg-yellow-400"> */}
           {/* <img
             src="https://www.coxmotorparts.co.uk/wp-content/uploads/2022/05/car-tyres.jpg"
             alt=""
@@ -143,7 +143,7 @@ function OfferComponent() {
           > */}
             {/* Your browser does not support the video tag. */}
           {/* </video> */}
-        </div>
+        {/* </div> */}
       </div>
     </div>
   );
