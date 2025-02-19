@@ -53,13 +53,13 @@ function Footer() {
               <a href="https://www.facebook.com" aria-label="Facebook">
                 <FaFacebook className="w-7 h-7" />
               </a>
-              <a href="https://www.instagram.com" aria-label="Instagram">
+              <a href="https://www.instagram.com/crctreads?igsh=MXN1MGt1ZXNicTJ1ZQ==" aria-label="Instagram">
                 <RiInstagramFill className="w-7 h-7" />
               </a>
-              <a href="https://www.youtube.com" aria-label="YouTube">
+              <a href="https://youtube.com/shorts/Vx2m-vapfek?si=kedSAnvLvyGudALP" aria-label="YouTube">
                 <TbBrandYoutubeFilled className="w-7 h-7" />
               </a>
-              <a href="https://www.linkedin.com" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/crc-treads-b1774960?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" aria-label="LinkedIn">
                 <FaLinkedin className="w-7 h-7" />
               </a>
               {/* <a
