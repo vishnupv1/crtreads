@@ -6,78 +6,30 @@ import { useEffect, useState } from "react";
 const sampleReviews = [
   {
     id: 1,
-    author_name: "John Doe",
+    author_name: "Mrunali Traders, Thane",
     rating: 5,
-    text: "Great service and amazing quality! Highly recommend this place.",
+    text: "Since switching to CRC Hitouch, I've witnessed a steady increase in sales. Despite being encouraged by their sales team to upgrade to premium grades like ELEGANT and POLYSTAR, I've remained loyal to Hitouch, their budget-friendly option for JCB tyres, due to its outstanding performance and value. In fact, I've stuck with Hitouch for 8 years, with no regrets.",
     relative_time_description: "1 week ago",
-    profile_photo_url: "https://plus.unsplash.com/premium_photo-1683121366070-5ceb7e007a97?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D",
+    profile_photo_url: "user.jpg",
   },
   {
     id: 2,
-    author_name: "Jane Smith",
+    author_name: "S Tyre Remoulding , Madurai",
     rating: 4,
-    text: "Very professional and friendly staff. Will visit again!",
+    text: "I operate a tyre retreading business, utilizing both hot and cold processes. Previously, I was a franchisee for a premium tread rubber brand, which offered high mileage but began to exhibit increasing issues with chipping and cutting. A consumables trader introduced me to CRC, and I've since transitioned entirely to their products, from patches to OTR tread. I'm pleased with the consistent quality and pricing of their offerings. As a result, I terminated my franchise agreement and now rely solely on CRC for my business needs.",
     relative_time_description: "2 weeks ago",
-    profile_photo_url: "https://plus.unsplash.com/premium_photo-1664541336896-b3d5f7dec9a3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D",
+    profile_photo_url: "user2.jpg",
   },
-  {
-    id: 3,
-    author_name: "Michael Johnson",
-    rating: 5,
-    text: "Best experience I've had with any service provider.",
-    relative_time_description: "3 weeks ago",
-    profile_photo_url: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDh8fHVzZXJ8ZW58MHx8MHx8fDA%3D",
-  },
-  {
-    id: 1,
-    author_name: "John Doe",
-    rating: 5,
-    text: "Great service and amazing quality! Highly recommend this place.",
-    relative_time_description: "1 week ago",
-    profile_photo_url: "https://images.unsplash.com/photo-1640951613773-54706e06851d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHVzZXJ8ZW58MHx8MHx8fDA%3D",
-  },
-  {
-    id: 2,
-    author_name: "Jane Smith",
-    rating: 4,
-    text: "Very professional and friendly staff. Will visit again!",
-    relative_time_description: "2 weeks ago",
-    profile_photo_url: "https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHVzZXJ8ZW58MHx8MHx8fDA%3D",
-  },
-  {
-    id: 3,
-    author_name: "Michael Johnson",
-    rating: 5,
-    text: "Best experience I've had with any service provider.",
-    relative_time_description: "3 weeks ago",
-    profile_photo_url: "https://images.unsplash.com/flagged/photo-1573740144655-bbb6e88fb18a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODR8fHVzZXJ8ZW58MHx8MHx8fDA%3D",
-  },
-  {
-    id: 1,
-    author_name: "John Doe",
-    rating: 5,
-    text: "Great service and amazing quality! Highly recommend this place.",
-    relative_time_description: "1 week ago",
-    profile_photo_url: "https://plus.unsplash.com/premium_photo-1683121366070-5ceb7e007a97?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D",
-  },
-  {
-    id: 2,
-    author_name: "Jane Smith",
-    rating: 4,
-    text: "Very professional and friendly staff. Will visit again!",
-    relative_time_description: "2 weeks ago",
-    profile_photo_url: "https://plus.unsplash.com/premium_photo-1664541336896-b3d5f7dec9a3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D",
-  },
-  {
-    id: 3,
-    author_name: "Michael Johnson",
-    rating: 5,
-    text: "Best experience I've had with any service provider.",
-    relative_time_description: "3 weeks ago",
-    profile_photo_url: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDh8fHVzZXJ8ZW58MHx8MHx8fDA%3D",
-  },
+  // {
+  //   id: 3,
+  //   author_name: "Michael Johnson",
+  //   rating: 5,
+  //   text: "Best experience I've had with any service provider.",
+  //   relative_time_description: "3 weeks ago",
+  //   profile_photo_url:
+  //     "https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDh8fHVzZXJ8ZW58MHx8MHx8fDA%3D",
+  // },
 ];
-
 function TestimonialPage() {
   const [reviews, setReviews] = useState([]);
 
@@ -89,7 +41,9 @@ function TestimonialPage() {
 
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center py-12 px-6 lg:px-8">
-      <h1 className="text-2xl md:text-4xl font-bold text-gray-800 mb-8">What Our Clients Say</h1>
+      <h1 className="text-2xl md:text-4xl font-bold text-gray-800 mb-8">
+        What Our Clients Say
+      </h1>
       <div className="w-full  max-w-6xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {reviews.map((review) => (
           <div
@@ -101,7 +55,9 @@ function TestimonialPage() {
               alt={review.author_name}
               className="w-16 h-16 rounded-full object-cover shadow-md"
             />
-            <h3 className="text-xl font-semibold text-gray-800">{review.author_name}</h3>
+            <h3 className="text-xl font-semibold text-gray-800">
+              {review.author_name}
+            </h3>
             <div className="flex space-x-1 text-yellow-400">
               {Array(review.rating)
                 .fill(0)
@@ -117,7 +73,9 @@ function TestimonialPage() {
                   </svg>
                 ))}
             </div>
-            <p className="text-gray-600 text-center">&quot;{review.text}&quot;</p>
+            <p className="text-gray-600 text-center">
+              &quot;{review.text}&quot;
+            </p>
             <span className="text-gray-500 text-sm">
               {review.relative_time_description}
             </span>

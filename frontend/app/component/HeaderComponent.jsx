@@ -448,16 +448,16 @@ function HeaderComponent() {
 
               {/* Social Media Icons */}
               <div className="flex justify-center mt-16 space-x-6 border-t pt-5">
-                <Link href="/facebook">
+                <Link href="https://www.facebook.com">
                   <FaFacebook className="w-5 h-6 text-gray-400 " />
                 </Link>
-                <Link href="/instagram">
+                <Link href="https://www.instagram.com/crctreads?igsh=MXN1MGt1ZXNicTJ1ZQ==">
                   <AiFillInstagram className="w-5 h-6 text-gray-400" />
                 </Link>
-                <Link href="/youtube">
+                <Link href="https://youtube.com/shorts/Vx2m-vapfek?si=kedSAnvLvyGudALP">
                   <FaYoutube className="w-5 h-6 text-gray-400" />
                 </Link>
-                <Link href="/linkedin">
+                <Link href="https://www.linkedin.com/in/crc-treads-b1774960?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                   <FaLinkedin className="w-5 h-6 text-gray-400" />
                 </Link>
               </div>

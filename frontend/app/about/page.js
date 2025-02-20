@@ -101,7 +101,7 @@ function About() {
         </div>
 
         {/* Enquiry Form */}
-        <div className="lg:w-1/2 bg-white p-8 rounded-lg shadow-lg">
+        {/* <div className="lg:w-1/2 bg-white p-8 rounded-lg shadow-lg">
           <h2 className="text-2xl font-semibold mb-4 text-gray-900">
             Enquiry Form
           </h2>
@@ -163,7 +163,7 @@ function About() {
               Send Message
             </button>
           </form>
-        </div>
+        </div> */}
       </div>
     </div>
   );

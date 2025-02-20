@@ -78,7 +78,7 @@ function Footer() {
           </div>
         </div>
         <p className="text-center mb-16 text-gray-600">
-          © 2024 CR Treads Tyres
+          © 2024 CRC Treads
         </p>
       </div>
     </footer>
