@@ -16,7 +16,8 @@ const sampleReviews = [
     id: 2,
     author_name: "GAYATRI TYRE RETREADING CHENNAI",
     rating: 5,
-    text: `In  my opinion, CRC ELEGANT offers the best value for money among all tread options available in the market, surpassing its competitors. Previously, I would purchase from various traders and source bonding gum locally due to its shorter shelf life. However, I now procure even consumables from CRC, and I've been impressed by the exceptional shelf life of their bonding gum."relative_time_description: "3 weeks ago"`,
+    text: `In  my opinion, CRC ELEGANT offers the best value for money among all tread options available in the market, surpassing its competitors. Previously, I would purchase from various traders and source bonding gum locally due to its shorter shelf life. However, I now procure even consumables from CRC, and I've been impressed by the exceptional shelf life of their bonding gum."`,
+    relative_time_description: "3 weeks ago",
     profile_photo_url: "user3.jpg",
   },
   {
@@ -25,6 +26,7 @@ const sampleReviews = [
     rating: 5,
     text: "Our association with CRC began in 2010, two years after they established their depot in Hassan. Initially, customers from Tumkur, including ourselves, started purchasing CRC products from Hassan. Although we faced some technical issues with our machinery, the CRC technical team, including the owner, provided exceptional support to resolve our problems and ensure smooth operations. Impressed with their products' performance in my own factory, I began selling them, which led to a significant increase in my turnover, nearly doubling it.",
     profile_photo_url: "user4.jpg",
+    relative_time_description: "1 week ago",
   },
   {
     id: 4,
@@ -32,6 +34,7 @@ const sampleReviews = [
     rating: 5,
     text: "Our partnership with CRC began in 2003, when we started purchasing from United Trading Company in Karimnagar, which was then managed by Mr. Subair. Even after the dealership transitioned to Sahasra Agencies following Mr. Subair's relocation to Saudi Arabia, we continued to do business with CRC. This enduring 22-year relationship is a testament to the trust and exceptional service provided by CRC.",
     profile_photo_url: "user5.jpg",
+    relative_time_description: "3 weeks ago",
   },
   {
     id: 5,
