@@ -4,49 +4,50 @@ import React, { useEffect, useState } from "react";
 const sampleReviews = [
   {
     id: 1,
-    author_name: "Mrunali Traders, Thane",
-    rating: 5,
-    text: "Since switching to CRC Hitouch, I've witnessed a steady increase in sales. Despite being encouraged by their sales team to upgrade to premium grades like ELEGANT and POLYSTAR, I've remained loyal to Hitouch, their budget-friendly option for JCB tyres, due to its outstanding performance and value. In fact, I've stuck with Hitouch for 8 years, with no regrets.",
-    relative_time_description: "1 week ago",
-    profile_photo_url:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwebcodeft.com%2Ftestimonials%2Fcustomisation-of-wordpress-buddypress-website%2F&psig=AOvVaw304u4powrnqvdA1y-V_1yy&ust=1740376199817000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLD-hNyM2YsDFQAAAAAdAAAAABAR",
-  },
-  {
-    id: 2,
-    author_name: "S Tyre Remoulding , Madurai",
-    rating: 4,
-    text: "I operate a tyre retreading business, utilizing both hot and cold processes. Previously, I was a franchisee for a premium tread rubber brand, which offered high mileage but began to exhibit increasing issues with chipping and cutting. A consumables trader introduced me to CRC, and I've since transitioned entirely to their products, from patches to OTR tread. I'm pleased with the consistent quality and pricing of their offerings. As a result, I terminated my franchise agreement and now rely solely on CRC for my business needs.",
-    relative_time_description: "2 weeks ago",
-    profile_photo_url:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwebcodeft.com%2Ftestimonials%2Fcustomisation-of-wordpress-buddypress-website%2F&psig=AOvVaw304u4powrnqvdA1y-V_1yy&ust=1740376199817000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLD-hNyM2YsDFQAAAAAdAAAAABAR"},
-  {
-    id: 3,
     author_name: "Bright Rubbers,Hubli",
     rating: 5,
     text: "I  exclusively purchase bonding gum, pre-cured treads, and BVC from CRC, and I'm extremely satisfied with their competitive pricing and exceptional product quality.",
     relative_time_description: "3 weeks ago",
-    profile_photo_url:"user2.jpg"},
+    profile_photo_url: "user2.jpg",
+  },
   {
-    id: 4,
+    id: 2,
     author_name: "GAYATRI TYRE RETREADING CHENNAI",
     rating: 5,
-    text:`In  my opinion, CRC ELEGANT offers the best value for money among all tread options available in the market, surpassing its competitors. Previously, I would purchase from various traders and source bonding gum locally due to its shorter shelf life. However, I now procure even consumables from CRC, and I've been impressed by the exceptional shelf life of their bonding gum."relative_time_description: "3 weeks ago"`,
-    profile_photo_url:"user3.jpg"
+    text: `In  my opinion, CRC ELEGANT offers the best value for money among all tread options available in the market, surpassing its competitors. Previously, I would purchase from various traders and source bonding gum locally due to its shorter shelf life. However, I now procure even consumables from CRC, and I've been impressed by the exceptional shelf life of their bonding gum."relative_time_description: "3 weeks ago"`,
+    profile_photo_url: "user3.jpg",
+  },
+  {
+    id: 3,
+    author_name: "ASK AGENCIES",
+    rating: 5,
+    text: "Our association with CRC began in 2010, two years after they established their depot in Hassan. Initially, customers from Tumkur, including ourselves, started purchasing CRC products from Hassan. Although we faced some technical issues with our machinery, the CRC technical team, including the owner, provided exceptional support to resolve our problems and ensure smooth operations. Impressed with their products' performance in my own factory, I began selling them, which led to a significant increase in my turnover, nearly doubling it.",
+    profile_photo_url: "user4.jpg",
+  },
+  {
+    id: 4,
+    author_name: "SAPTHAGIRI TYRES",
+    rating: 5,
+    text: "Our partnership with CRC began in 2003, when we started purchasing from United Trading Company in Karimnagar, which was then managed by Mr. Subair. Even after the dealership transitioned to Sahasra Agencies following Mr. Subair's relocation to Saudi Arabia, we continued to do business with CRC. This enduring 22-year relationship is a testament to the trust and exceptional service provided by CRC.",
+    profile_photo_url: "user5.jpg",
   },
   {
     id: 5,
-    author_name: "ASK AGENCIES",
+    author_name: "Mrunali Traders, Thane",
     rating: 5,
-    text:"Our association with CRC began in 2010, two years after they established their depot in Hassan. Initially, customers from Tumkur, including ourselves, started purchasing CRC products from Hassan. Although we faced some technical issues with our machinery, the CRC technical team, including the owner, provided exceptional support to resolve our problems and ensure smooth operations. Impressed with their products' performance in my own factory, I began selling them, which led to a significant increase in my turnover, nearly doubling it.",
-    profile_photo_url:"user4.jpg"
+    text: "Since switching to CRC Hitouch, I've witnessed a steady increase in sales. Despite being encouraged by their sales team to upgrade to premium grades like ELEGANT and POLYSTAR, I've remained loyal to Hitouch, their budget-friendly option for JCB tyres, due to its outstanding performance and value. In fact, I've stuck with Hitouch for 8 years, with no regrets.",
+    relative_time_description: "1 week ago",
+    profile_photo_url: "userDummy.jpg",
   },
   {
     id: 6,
-    author_name: "SAPTHAGIRI TYRES",
-    rating: 5,
-    text:"Our partnership with CRC began in 2003, when we started purchasing from United Trading Company in Karimnagar, which was then managed by Mr. Subair. Even after the dealership transitioned to Sahasra Agencies following Mr. Subair's relocation to Saudi Arabia, we continued to do business with CRC. This enduring 22-year relationship is a testament to the trust and exceptional service provided by CRC.",
-    profile_photo_url:"user5.jpg"
+    author_name: "S Tyre Remoulding , Madurai",
+    rating: 4,
+    text: "I operate a tyre retreading business, utilizing both hot and cold processes. Previously, I was a franchisee for a premium tread rubber brand, which offered high mileage but began to exhibit increasing issues with chipping and cutting. A consumables trader introduced me to CRC, and I've since transitioned entirely to their products, from patches to OTR tread. I'm pleased with the consistent quality and pricing of their offerings. As a result, I terminated my franchise agreement and now rely solely on CRC for my business needs.",
+    relative_time_description: "2 weeks ago",
+    profile_photo_url: "userDummy.jpg",
   },
 ];
-
 function Testimonial() {
   const [reviews, setReviews] = useState([]);
 
