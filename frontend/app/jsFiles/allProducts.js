@@ -160,13 +160,6 @@ let AllProductsCategory = [
     imageUrl: "/cbond.jpg", // Corrected path for images in the public folder
     link: "/products/vulcanizing-solution",
   },
-  {
-    name: "Round Tread",
-    description:
-      "Round treads designed to provide an even surface for high-performance tire retreading.",
-    imageUrl: "https://midas.ind.in//public/uploads/products/1675486748.jpg",
-    link: "/products/round-tread",
-  },
   // {
   //   name: "Cushion Repair Compound",
   //   description:

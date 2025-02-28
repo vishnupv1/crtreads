@@ -42,10 +42,6 @@ let firstProductList = [
     name: "Vulcanizing Solution",
     imageUrl: "/cbond.jpg",
   },
-  {
-    name: "Round Tread",
-    imageUrl: "https://midas.ind.in//public/uploads/products/1675486748.jpg",
-  },
   // {
   //   name: "Cushion Repair Compound",
   //   imageUrl: "https://midas.ind.in//public/uploads/products/1581401480.jpg"
@@ -92,10 +88,6 @@ let firstProductList = [
   {
     name: "Vulcanizing Solution",
     imageUrl: "/cbond.jpg",
-  },
-  {
-    name: "Round Tread",
-    imageUrl: "https://midas.ind.in//public/uploads/products/1675486748.jpg",
   },
   // {
   //   name: "Cushion Repair Compound",
