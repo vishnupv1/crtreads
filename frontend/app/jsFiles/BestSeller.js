@@ -32,31 +32,31 @@ let bestSeller = [
   //   imageUrl: "/patterns/crm.jpg",
   // },
   {
-    name: "CM 02",
+    name: "CM02",
     imageUrl: "CM02.jpg",
   },
   {
-    name: "CD 01",
+    name: "CD01",
     imageUrl: "CD01.jpg",
   },
   {
-    name: "CD 02",
+    name: "CD02",
     imageUrl: "CD02.jpg",
   },
   {
-    name: "CD 03",
+    name: "CD03",
     imageUrl: "CD03.jpg",
   },
   {
-    name: "CE 582",
+    name: "CE582",
     imageUrl: "CE582.jpg",
   },
   {
-    name: "CD 04",
+    name: "CD04",
     imageUrl: "CD04.jpg",
   },
   {
-    name: "CM 01",
+    name: "CM01",
     imageUrl: "CM01.jpg",
   },
 ];
