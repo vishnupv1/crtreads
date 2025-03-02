@@ -6,14 +6,14 @@ import { TbBrandYoutubeFilled } from "react-icons/tb";
 function Footer() {
   return (
     <footer
-      className="relative p-4 pt-14 flex justify-center items-center bg-cover bg-center bg-[url('/truck.jpg')] text-white"
+      className="relative p-4 pt-14 flex justify-center  items-center bg-cover bg-center bg-[url('/truck.jpg')] text-white"
       style={{
         borderTop: "1px solid rgba(255, 255, 255, 0.2)",
       }}
       aria-labelledby="footer-title"
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black opacity-60"></div>
+      <div className="absolute inset-0 bg-black opacity-80"></div>
 
       <div className="relative w-11/12 md:w-9/12">
         <h2 id="footer-title" className="sr-only">
