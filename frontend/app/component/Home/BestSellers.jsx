@@ -17,7 +17,9 @@ function BestSellers() {
       // style={{ height: "50vh" }}
     >
       <div className="w-11/12 lg:w-9/12">
-        <p className="text-xl md:text-2xl font-semibold text-gray-800   mb-12">BEST SELLER</p>
+        <p className="text-xl md:text-2xl font-semibold text-gray-800   mb-12">
+          BEST SELLER
+        </p>
         {/* Enable horizontal scrolling */}
         <div className="flex overflow-x-auto space-x-6 md:space-x-10  ">
           {/* Map over bestSeller array */}
@@ -27,11 +29,11 @@ function BestSellers() {
               className="w-48 md:w-64 h-72 md:h-80 flex-none flex flex-col justify-center items-center cursor-pointer  shadow-xl  overflow-hidden rounded-lg "
               onClick={() => handleCardClick(product.name)} // Pass product name to the click handler
             >
-                <img
-                  src={product.imageUrl} // Use the product image from the array
-                  alt={product.name} // Use the product name for the alt attribute
-                  className="w-4/5 "
-                />
+              <img
+                src={product.imageUrl}
+                alt={product.name}
+                className="w-4/5 h-1/2 object-contain"
+              />
               <p className="my-4 text-center">{product.name}</p>{" "}
               <button
                 type="submit"
