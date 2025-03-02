@@ -27,7 +27,7 @@ function Footer() {
               className="h-16 lg:h-20 mb-4"
             />
             <p>
-              Since our inception in 2018, CRC Treads has rapidly emerged as
+              Since our inception in 1989, CRC Treads has rapidly emerged as
               India&apos;s premier provider of procured tread rubber. Offering a
               comprehensive selection of high-quality rubber products designed
               for durability and performance, we cater to diverse industrial
