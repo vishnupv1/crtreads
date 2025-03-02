@@ -33,31 +33,31 @@ let bestSeller = [
   // },
   {
     name: "CM02",
-    imageUrl: "CM02.jpg",
+    imageUrl: "/patterns/CM02.jpg",
   },
   {
     name: "CD01",
-    imageUrl: "CD01.jpg",
+    imageUrl: "/patterns/CD01.jpg",
   },
   {
     name: "CD02",
-    imageUrl: "CD02.jpg",
+    imageUrl: "/patterns/CD02.jpg",
   },
   {
     name: "CD03",
-    imageUrl: "CD03.jpg",
+    imageUrl: "/patterns/CD03.jpg",
   },
   {
     name: "CE582",
-    imageUrl: "CE582.jpg",
+    imageUrl: "/patterns/CE582.jpg",
   },
   {
     name: "CD04",
-    imageUrl: "CD04.jpg",
+    imageUrl: "/patterns/CD04.jpg",
   },
   {
     name: "CM01",
-    imageUrl: "CM01.jpg",
+    imageUrl: "/patterns/CM01.jpg",
   },
 ];
 
