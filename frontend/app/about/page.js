@@ -52,8 +52,11 @@ function About() {
           </h2>
           <ul className="space-y-4 text-gray-700">
             <li>
-              <strong>Phone:</strong> +971509011024
+              <strong>Phone:</strong>INDIA - +917736031389
+              <strong>Phone:</strong>UAE- +971509011024
             </li>
+            {/* <li>
+            </li> */}
             <li>
               <strong>Email:</strong> info@crc-me.com
             </li>

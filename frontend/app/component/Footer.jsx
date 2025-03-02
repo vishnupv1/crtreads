@@ -25,7 +25,7 @@ function Footer() {
               className="h-16 lg:h-20 mb-4"
             />
             <p>
-              Since our inception in 2018, CR Treads has rapidly emerged as
+              Since our inception in 2018, CRC Treads has rapidly emerged as
               India&apos;s premier provider of procured tread rubber. Offering a
               comprehensive selection of high-quality rubber products designed
               for durability and performance, we cater to diverse industrial
@@ -46,7 +46,8 @@ function Footer() {
           <div className="w-full md:w-3/12 ">
             <h3 className="mt-4 text-gray-600 md:font-semibold md:text-2xl">Contact Us</h3>
             <ul className="mb-4 text-gray-600 md:font-semibold">
-              <li className="md:text-lg">Call Us at +971509011024</li>
+              <li className="md:text-lg">INDIA +917736031389</li>
+              <li className="md:text-lg">UAE +971509011024</li>
               <li className="md:text-lg">crctreads.com</li>
             </ul>
             <div className="flex  justify-center md:justify-normal space-x-4 text-gray-600 mt-12">
