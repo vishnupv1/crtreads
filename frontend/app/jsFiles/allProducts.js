@@ -5,60 +5,90 @@ let AllProductsCategory = [
       "High-quality tread rubber for cold retreading process. Suitable for a variety of tire types.",
     imageUrl:
       "https://5.imimg.com/data5/OX/KT/TR/SELLER-5475264/precured-tread-rubber-500x500-1000x1000.jpg",
+    // products: [
+    //   {
+    //     name: "ADH",
+    //     imageUrl:
+    //       "https://midas.ind.in//public/uploads/products/1587536506.jpg",
+    //     description:
+    //       "Durable ADH tread rubber offering excellent traction for long mileage.",
+    //   },
+    //   {
+    //     name: "AJAX",
+    //     imageUrl:
+    //       "https://midas.ind.in//public/uploads/products/1587540827.jpg",
+    //     description:
+    //       "Versatile tread rubber suitable for various road conditions.",
+    //   },
+    //   {
+    //     name: "ALD",
+    //     imageUrl:
+    //       "https://midas.ind.in//public/uploads/products/1587552355.jpg",
+    //     description:
+    //       "Long-lasting ALD tread rubber for heavy-duty applications.",
+    //   },
+    //   {
+    //     name: "AMD",
+    //     imageUrl:
+    //       "https://midas.ind.in//public/uploads/products/1587792687.jpg",
+    //     description:
+    //       "AMD tread rubber providing high resistance to wear and tear.",
+    //   },
+    //   {
+    //     name: "APOLLO",
+    //     imageUrl:
+    //       "https://midas.ind.in//public/uploads/products/1587793190.jpg",
+    //     description: "Robust APOLLO tread rubber ideal for tough terrains.",
+    //   },
+    //   {
+    //     name: "ARIUS",
+    //     imageUrl:
+    //       "https://midas.ind.in//public/uploads/products/1587793503.jpg",
+    //     description:
+    //       "High-performance ARIUS tread rubber for enhanced vehicle stability.",
+    //   },
+    //   {
+    //     name: "ARYA",
+    //     imageUrl:
+    //       "https://midas.ind.in//public/uploads/products/1590578945.jpg",
+    //     description: "Reliable ARYA tread rubber for all-weather durability.",
+    //   },
+    //   {
+    //     name: "ASTRO",
+    //     imageUrl:
+    //       "https://midas.ind.in//public/uploads/products/1587794371.jpg",
+    //     description:
+    //       "ASTRO tread rubber offering improved fuel efficiency and longevity.",
+    //   },
+    // ],
     products: [
       {
-        name: "ADH",
-        imageUrl:
-          "https://midas.ind.in//public/uploads/products/1587536506.jpg",
-        description:
-          "Durable ADH tread rubber offering excellent traction for long mileage.",
+        name: "CM02",
+        imageUrl: "/patterns/CM02.jpg",
       },
       {
-        name: "AJAX",
-        imageUrl:
-          "https://midas.ind.in//public/uploads/products/1587540827.jpg",
-        description:
-          "Versatile tread rubber suitable for various road conditions.",
+        name: "CD01",
+        imageUrl: "/patterns/CD01.jpg",
       },
       {
-        name: "ALD",
-        imageUrl:
-          "https://midas.ind.in//public/uploads/products/1587552355.jpg",
-        description:
-          "Long-lasting ALD tread rubber for heavy-duty applications.",
+        name: "CD02",
+        imageUrl: "/patterns/CD02.jpg",
       },
       {
-        name: "AMD",
-        imageUrl:
-          "https://midas.ind.in//public/uploads/products/1587792687.jpg",
-        description:
-          "AMD tread rubber providing high resistance to wear and tear.",
+        name: "CD03",
+        imageUrl: "/patterns/CD03.jpg",
       },
       {
-        name: "APOLLO",
-        imageUrl:
-          "https://midas.ind.in//public/uploads/products/1587793190.jpg",
-        description: "Robust APOLLO tread rubber ideal for tough terrains.",
+        name: "CE582",
+        imageUrl: "/patterns/CE582.jpg",
       },
       {
-        name: "ARIUS",
-        imageUrl:
-          "https://midas.ind.in//public/uploads/products/1587793503.jpg",
-        description:
-          "High-performance ARIUS tread rubber for enhanced vehicle stability.",
+        name: "CD04",
+        imageUrl: "/patterns/CD04.jpg",
       },
       {
-        name: "ARYA",
-        imageUrl:
-          "https://midas.ind.in//public/uploads/products/1590578945.jpg",
-        description: "Reliable ARYA tread rubber for all-weather durability.",
-      },
-      {
-        name: "ASTRO",
-        imageUrl:
-          "https://midas.ind.in//public/uploads/products/1587794371.jpg",
-        description:
-          "ASTRO tread rubber offering improved fuel efficiency and longevity.",
+        name: "CM01",
+        imageUrl: "/patterns/CM01.jpg",
       },
     ],
   },
