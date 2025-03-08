@@ -1,5 +1,4 @@
 import localFont from "next/font/local";
-import Link from "next/link";
 import "./globals.css";
 import Head from "next/head";
 import HeaderComponent from "./component/HeaderComponent";
@@ -30,19 +29,43 @@ export default function RootLayout({ children }) {
       <Head>
         {/* Add Google Fonts */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="true"
+        />
         <link
           href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap"
           rel="stylesheet"
         />
-        {/* <script
-          type="text/javascript"
-          src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
-        ></script> */}
+
+        {/* Add custom site icon (compLogo.png) */}
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
       </Head>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased font-mukta`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased font-mukta`}
+      >
         <HeaderComponent />
-        <div><MyApp>{children}</MyApp></div>
+        <div>
+          <MyApp>{children}</MyApp>
+        </div>
         <Footer />
       </body>
     </html>
