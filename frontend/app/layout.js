@@ -39,7 +39,7 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
 
-        {/* Add custom site icon (compLogo.png) */}
+        {/* Add custom site icons */}
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -62,6 +62,19 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased font-mukta`}
       >
+        {/* Structured Data for Organization Logo */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              url: "https://www.crctreads.com",
+              logo: "https://www.crctreads.com/compLogo.png",
+            }),
+          }}
+        />
+
         <HeaderComponent />
         <div>
           <MyApp>{children}</MyApp>

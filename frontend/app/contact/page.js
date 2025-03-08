@@ -38,7 +38,8 @@ function Contact() {
           </div>
           <div className="mb-6 md:mb-0 text-center lg:w-1/6">
             <h3 className="text-xl font-bold">Phone:</h3>
-            <p className="text-gray-700">+971509011024</p>
+            <p className="text-gray-700 text-sm ">+917736031389 - INDIA</p>
+            <p className="text-gray-700 text-sm ">+971509011024 - UAE</p>
           </div>
           <div className="lg:w-1/6 text-center">
             <h3 className="text-xl font-bold ">Email:</h3>
@@ -49,7 +50,7 @@ function Contact() {
 
       {/* Third Row: Map and Enquiry Form */}
       {/* <section className="container mx-auto p-6 flex flex-col lg:flex-row items-center justify-between bg-white rounded-lg shadow-lg"> */}
-        {/* <div className="lg:w-1/2 mb-6 lg:mb-0">
+      {/* <div className="lg:w-1/2 mb-6 lg:mb-0">
           <iframe
             className="w-full h-64 rounded-lg"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093746!2d144.95373631531567!3d-37.81627927975154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5776c6f0b8bd789!2sFederation%20Square!5e0!3m2!1sen!2sus!4v1632844590078!5m2!1sen!2sus"
@@ -57,14 +58,14 @@ function Contact() {
             loading="lazy"
           ></iframe>
         </div> */}
-        {/* <div className="lg:w-1/2 flex justify-center h-96">
+      {/* <div className="lg:w-1/2 flex justify-center h-96">
           <img
             src="https://plus.unsplash.com/premium_photo-1675032314301-400d9898183d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="About Us"
             className="rounded-lg shadow-lg object-cover w-full h-full"
           />
         </div> */}
-        {/* <div className="w-5/6 lg:w-1/2 flex flex-col items-center mt-14 lg:mt-0">
+      {/* <div className="w-5/6 lg:w-1/2 flex flex-col items-center mt-14 lg:mt-0">
           <h2 className="text-3xl font-semibold mb-4 text-center">
             Enquiry Form
           </h2>
