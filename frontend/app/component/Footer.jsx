@@ -24,8 +24,9 @@ function Footer() {
             <img
               src="/compLogo.png"
               alt="Company logo: Your Brand Name"
-              className="h-16 lg:h-20 mb-4"
+              className="h-16 lg:h-20 mb-4 filter invert"
             />
+
             <p>
               Since our inception in 1989, CRC Treads has rapidly emerged as
               India&apos;s premier provider of procured tread rubber. Offering a
@@ -36,7 +37,9 @@ function Footer() {
           </div>
 
           <div className="w-full md:w-3/12">
-            <h3 className="mt-4 text-gray-300 md:font-semibold md:text-2xl">Contact Us</h3>
+            <h3 className="mt-4 text-gray-300 md:font-semibold md:text-2xl">
+              Contact Us
+            </h3>
             <ul className="mb-4 text-gray-300 md:font-semibold">
               <li className="md:text-lg">INDIA +917736031389</li>
               <li className="md:text-lg">UAE +971509011024</li>
@@ -46,13 +49,22 @@ function Footer() {
               <a href="https://www.facebook.com" aria-label="Facebook">
                 <FaFacebook className="w-7 h-7" />
               </a>
-              <a href="https://www.instagram.com/crctreads" aria-label="Instagram">
+              <a
+                href="https://www.instagram.com/crctreads"
+                aria-label="Instagram"
+              >
                 <RiInstagramFill className="w-7 h-7" />
               </a>
-              <a href="https://youtube.com/shorts/Vx2m-vapfek" aria-label="YouTube">
+              <a
+                href="https://youtube.com/shorts/Vx2m-vapfek"
+                aria-label="YouTube"
+              >
                 <TbBrandYoutubeFilled className="w-7 h-7" />
               </a>
-              <a href="https://www.linkedin.com/in/crc-treads" aria-label="LinkedIn">
+              <a
+                href="https://www.linkedin.com/in/crc-treads"
+                aria-label="LinkedIn"
+              >
                 <FaLinkedin className="w-7 h-7" />
               </a>
             </div>
