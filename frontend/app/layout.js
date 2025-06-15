@@ -4,6 +4,8 @@ import Head from "next/head";
 import HeaderComponent from "./component/HeaderComponent";
 import Footer from "./component/Footer";
 import MyApp from "./App";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 // Import local fonts
 const geistSans = localFont({

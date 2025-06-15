@@ -223,7 +223,7 @@ function HeaderComponent() {
               </button>
             </div>
             <img
-              src="/compLogo.png"
+              src="/compLogo3.png"
               alt="Company logo: Your Brand Name"
               className="h-16 lg:h-20"
             />

@@ -6,14 +6,9 @@ import { TbBrandYoutubeFilled } from "react-icons/tb";
 
 const branches = [
   {
-    name: "Mumbai",
+    name: "India",
     details:
-      "611, Near BP Petrol Pump, Kharbhav - Thane, Mumbai, Maharashtra - 421 302",
-  },
-  {
-    name: "Aluva",
-    details:
-      "Industrial Development Area, Aluva - 683 112, Kerala, India\n+91 98460 60006 | +91 93881 07710",
+      "9/22 HA IDA, Nalam Mile, ALUVA, Kerala 683112, India\n+91 98460 60006 | +91 93881 07710",
   },
   {
     name: "United Arab Emirates",
@@ -48,7 +43,7 @@ function Footer() {
         <div className="flex flex-col md:flex-row justify-between">
           <div className="w-full md:w-4/12 text-gray-300 md:font-semibold text-sm mb-8 md:mb-0">
             <img
-              src="/compLogo.png"
+              src="/compLogo3.png"
               alt="Company logo: Your Brand Name"
               className="h-16 lg:h-20 mb-4 filter invert"
             />
