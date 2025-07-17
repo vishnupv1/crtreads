@@ -53,6 +53,7 @@ const ProductView = () => {
               height: 300,
               src: subProduct.imageUrl,
               width: 300,
+              className:"object-cover"
             }}
             magnifiedImageProps={{
               height: 900,

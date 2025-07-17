@@ -18,15 +18,16 @@ function ShopFromTopBrands() {
       }
     `;
 
-    // Add keyframes to the stylesheet
-    const styleSheet = document.styleSheets[0];
-    styleSheet.insertRule(keyframes, styleSheet.cssRules.length);
+    const style = document.createElement('style');
+    style.innerHTML = keyframes;
+    document.head.appendChild(style);
 
     // Set up animation on the brand logos container
     container.style.animation = `scroll ${container.scrollWidth / (scrollSpeed * 100)}s linear infinite`;
 
     return () => {
       container.style.animation = '';
+      document.head.removeChild(style);
     };
   }, []);
 

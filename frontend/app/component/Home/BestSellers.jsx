@@ -61,7 +61,7 @@ function BestSellers() {
                 <img
                   src={product.imageUrl}
                   alt={product.name}
-                  className="w-32 h-32 md:w-40 md:h-40 object-contain mt-6"
+                  className="w-32 h-32 md:w-40 md:h-40 object-cover mt-6"
                 />
                 <p className="text-base font-medium text-gray-700 mt-4">
                   {product.name}

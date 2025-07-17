@@ -96,7 +96,7 @@ let AllProductsCategory = [
     name: "Conventional (Hot) Rubber",
     description:
       "Hot rubber used in the traditional tire retreading process, offering durability and flexibility.",
-    imageUrl: "https://cpimg.tistatic.com/07815989/b/5/Conventional-Rubber.jpg",
+    imageUrl: "/conventional-hot-rubber.png",
     link: "/products/conventional-hot-rubber",
   },
   {
@@ -104,7 +104,7 @@ let AllProductsCategory = [
     description:
       "Our Gum is made from 100% natural rubber to increase tack. Available in customer specified sizes also. Different types of Gum are available for both precured and hot processes. Can be used to fill nail holes and repair injured parts of casing.",
     imageUrl:
-      "https://5.imimg.com/data5/SELLER/Default/2020/11/UL/QU/JH/24683302/bonding-gum.jpg",
+      "/bonding-gum.png",
     link: "/products/bonding-gum",
   },
   {
@@ -180,14 +180,14 @@ let AllProductsCategory = [
     name: "Rope Rubber",
     description:
       "Rope rubber for filling and repairing areas in damaged tires before retreading.",
-    imageUrl: "https://midas.ind.in//public/uploads/products/1538127546.jpg",
+    imageUrl: "rope-rubber.png",
     link: "/products/rope-rubber",
   },
   {
     name: "Vulcanizing Solution",
     description:
       "Specialized vulcanizing solution for the bonding of tire treads during retreading.",
-    imageUrl: "/cbond.jpg", // Corrected path for images in the public folder
+    imageUrl: "/cbond.png", // Corrected path for images in the public folder
     link: "/products/vulcanizing-solution",
   },
   // {

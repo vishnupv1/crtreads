@@ -1,13 +1,11 @@
 import localFont from "next/font/local";
 import "./globals.css";
-import Head from "next/head";
 import HeaderComponent from "./component/HeaderComponent";
 import Footer from "./component/Footer";
-import MyApp from "./App";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-// Import local fonts
+// Local fonts
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -20,54 +18,29 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
+// App Router metadata
 export const metadata = {
-  title: "CRC Treads",
-  description: "CRC Treads",
+  title: "CRC Treads | India’s #1 Precured Tread Rubber & Bonding Gum for Tyre Retreading",
+  description:
+    "CRC Treads offers India’s most trusted precured tread rubber and bonding gum for tyre retreading. Built for mining, highways, and heavy-duty performance. Exported globally with proven results.",
+  keywords:
+    "CRC Treads, Precured Tread Rubber, Tyre Retreading, Bonding Gum, Mining Tread Rubber, Retreading Materials, High Mileage Tyre Rubber, Export Quality Tread Rubber, India Tyre Rubber Suppliers, Tyre Retreading Company India, Heavy Duty Retreading Solutions",
+  icons: {
+    icon: [
+      { url: "/favicon-32x32.png", sizes: "32x32" },
+      { url: "/favicon-16x16.png", sizes: "16x16" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <Head>
-        {/* Add Google Fonts */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="true"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap"
-          rel="stylesheet"
-        />
-
-        {/* Add custom site icon (compLogo.png) */}
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="/apple-touch-icon.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="/favicon-32x32.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="/favicon-16x16.png"
-        />
-        <link rel="manifest" href="/site.webmanifest" />
-      </Head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased font-mukta`}
-      >
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className="antialiased font-mukta">
         <HeaderComponent />
-        <div>
-          <MyApp>{children}</MyApp>
-        </div>
+        <main>{children}</main>
         <Footer />
       </body>
     </html>

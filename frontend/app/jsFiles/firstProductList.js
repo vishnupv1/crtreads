@@ -6,12 +6,12 @@ let firstProductList = [
   },
   {
     name: "Conventional (Hot) Rubber",
-    imageUrl: "https://cpimg.tistatic.com/07815989/b/5/Conventional-Rubber.jpg",
+    imageUrl: "/conventional-hot-rubber.png",
   },
   {
     name: "Bonding Gum",
     imageUrl:
-      "https://5.imimg.com/data5/SELLER/Default/2020/11/UL/QU/JH/24683302/bonding-gum.jpg",
+      "/bonding-gum.png",
   },
   {
     name: "Curing Bag",
@@ -36,11 +36,11 @@ let firstProductList = [
   },
   {
     name: "Rope Rubber",
-    imageUrl: "https://midas.ind.in//public/uploads/products/1538127546.jpg",
+    imageUrl: "rope-rubber.png",
   },
   {
     name: "Vulcanizing Solution",
-    imageUrl: "/cbond.jpg",
+    imageUrl: "/cbond.png",
   },
   // {
   //   name: "Cushion Repair Compound",
@@ -53,12 +53,12 @@ let firstProductList = [
   },
   {
     name: "Conventional (Hot) Rubber",
-    imageUrl: "https://cpimg.tistatic.com/07815989/b/5/Conventional-Rubber.jpg",
+    imageUrl: "/conventional-hot-rubber.png",
   },
   {
     name: "Bonding Gum",
     imageUrl:
-      "https://5.imimg.com/data5/SELLER/Default/2020/11/UL/QU/JH/24683302/bonding-gum.jpg",
+      "/bonding-gum.png",
   },
   {
     name: "Curing Bag",
@@ -83,11 +83,11 @@ let firstProductList = [
   },
   {
     name: "Rope Rubber",
-    imageUrl: "https://midas.ind.in//public/uploads/products/1538127546.jpg",
+    imageUrl: "rope-rubber.png",
   },
   {
     name: "Vulcanizing Solution",
-    imageUrl: "/cbond.jpg",
+    imageUrl: "/cbond.png",
   },
   // {
   //   name: "Cushion Repair Compound",
