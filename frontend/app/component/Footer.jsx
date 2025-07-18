@@ -104,7 +104,7 @@ function Footer() {
                 <TbBrandYoutubeFilled className="w-7 h-7" />
               </a>
               <a
-                href="https://www.linkedin.com/in/crc-treads"
+                href="https://www.linkedin.com/in/crc-treads-b1774960/"
                 aria-label="LinkedIn"
               >
                 <FaLinkedin className="w-7 h-7" />

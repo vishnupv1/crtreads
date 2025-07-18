@@ -3,7 +3,7 @@ import React from "react";
 
 function ProductBaseonSearch({ products }) {
   return (
-    <div className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-5 gap-4 p-2">
+    <div className="grid grid-cols-2 md:grid-cols-5 lg:grid-cols-5 gap-4 p-2">
       {products.map((category, index) => (
         <ProductCard key={index} category={category} />
       ))}
